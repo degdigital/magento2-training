@@ -1,0 +1,9 @@
+<?php /** @var \Training\Vendor\Block\Demo\ViewVendor $this */?>
+<?php /** @var \Training\Vendor\Model\Vendor $_vendor */?>
+<?php $_vendor = $this->getCurrentVendor();?>
+<div class="vendor-view">
+    <div class="vendor-name">
+        <?php echo __('Name') ?>: <?php echo $_vendor->getName();?>
+    </div>
+    ...
+</div>

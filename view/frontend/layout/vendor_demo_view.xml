@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="content">
+            <block class="Training\Vendor\Block\Demo\ViewVendor" name="traing_vendor.demo.view" template="Training_Vendor::vendor/view.phtml" />
+        </referenceBlock>
+    </body>
+</page>
